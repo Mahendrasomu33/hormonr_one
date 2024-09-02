@@ -1,0 +1,52 @@
+body{
+margin: 0px;
+padding: 0px;
+font-family: Arial,sans-serif;
+background-color:#eeeef6;
+}
+header{
+    height:80px;
+    width: 100%;
+    display: flex;
+    border: 1px solid;
+}
+.logo{
+    margin-left: 80px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    line-height: 50px;
+    margin-left: 50%;
+}
+.navbar ul li{
+    margin-right: 50px;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#262650;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+.navbar ul li a:hover{
+    color:#1c1c77 ;
+}
+#hbtn{
+    background-color: rgb(231, 229, 229);
+    padding: 12px 25px;
+    color:black;
+    width: 190px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+button:hover{
+    background-color: #383855;
+}
+#hbtn{
+    background-color:#262650;
+    color: white;
+}
